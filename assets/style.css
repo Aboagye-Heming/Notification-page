@@ -1,0 +1,128 @@
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+/* typography */
+.text-xl {
+  font-weight: 800;
+  font-size: 11px;
+}
+.text-sm {
+  font-weight: 500;
+  font-size: 11px;
+}
+
+/* colors */
+.white {
+  color: hsl(0, 0%, 100%);
+}
+.very-light-grayish-blue {
+  color: hsl(210, 60%, 98%);
+}
+.light-grayish-blue-1 {
+  color: hsl(211, 68%, 94%);
+}
+.light-grayish-blue-2 {
+  color: hsl(205, 33%, 90%);
+}
+.grayish-blue {
+  color: hsl(219, 14%, 63%);
+}
+.dark-grayish-blue {
+  color: hsl(219, 12%, 42%);
+}
+.very-dark-blue {
+  color: hsl(224, 21%, 14%);
+}
+.blue{
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  /* padding: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 100vh; */
+}
+.wrapper {
+  height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+header div p {
+  background-color: hsl(228, 45%, 44%);
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+}
+header a {
+  color: hsl(219, 14%, 63%);
+
+  text-decoration: none;
+}
+.single-box {
+  display: flex;
+  align-items:center;
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* column-gap: 1%; */
+  /* row-gap: 1px; */
+}
+.double-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.avatar{
+    margin-right: 30px;
+}
+.name{
+    font-weight: 800;
+    font-size: 18px;
+    color: hsl(224, 21%, 14%);
+    margin-right: 5px;
+}
+.notify{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.post{
+    color: hsl(219, 12%, 42%);
+    margin-left: 1%;
+    font-weight: 800;
+}
+.time{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.comment{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
