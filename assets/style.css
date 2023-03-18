@@ -37,8 +37,8 @@ h4 {
 .very-dark-blue {
   color: hsl(224, 21%, 14%);
 }
-.blue{
-    color: hsl(228, 45%, 44%);
+.blue {
+  color: hsl(228, 45%, 44%);
 }
 
 body {
@@ -58,8 +58,8 @@ body {
 .wrapper {
   height: 100vh;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 header {
   display: flex;
@@ -85,44 +85,69 @@ header a {
 }
 .single-box {
   display: flex;
-  align-items:center;
+  align-items: center;
   background-color: hsl(210, 60%, 98%);
   border-radius: 10px;
   margin-bottom: 10px;
   /* column-gap: 1%; */
   /* row-gap: 1px; */
 }
-.double-box{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+.double-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.avatar{
-    margin-right: 30px;
+.avatar {
+  margin-right: 30px;
 }
-.name{
-    font-weight: 800;
-    font-size: 18px;
-    color: hsl(224, 21%, 14%);
-    margin-right: 5px;
+.name {
+  font-weight: 800;
+  font-size: 18px;
+  color: hsl(224, 21%, 14%);
+  margin-right: 5px;
+  cursor: pointer;
 }
-.notify{
-    color: hsl(219, 14%, 63%);
-    font-weight: 500;
+.notify {
+  color: hsl(219, 14%, 63%);
+  font-weight: 500;
 }
-.post{
-    color: hsl(219, 12%, 42%);
-    margin-left: 1%;
-    font-weight: 800;
+.post {
+  color: hsl(228, 45%, 44%);
+
+  margin-left: 1%;
+  font-weight: 800;
+  cursor: pointer;
 }
-.time{
-    color: hsl(219, 14%, 63%);
-    font-weight: 500;
+.time {
+  color: hsl(219, 14%, 63%);
+  font-weight: 500;
 }
-.comment{
-    color: hsl(219, 14%, 63%);
-    font-weight: 500;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.comment {
+  color: hsl(219, 14%, 63%);
+  font-weight: 500;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: hsl(205, 33%, 90%);
+}
+@media only screen and(max-width: 600px) {
+  body {
+    font-size: 14px;
+    line-height: 1.4px;
+
+  }
+
+  .container {
+    margin: 20px auto;
+   
+
+  }
+  .wrapper {
+    margin: 10px;
+    padding: 20px 20px;
+  }
+  .message {
+    padding: 4px 80px;
+  }
 }
